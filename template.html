@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>DC · New template</title>
+<style>
+@font-face{font-family:Arch;src:url(tpl/fonts/archivo.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:Mono;src:url(tpl/fonts/mono.woff2) format("woff2");font-weight:100 800}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;background:#111214;color:#fff;-webkit-font-smoothing:antialiased}
+.w{max-width:1320px;margin:0 auto;padding:0 28px}
+header{padding:90px 0 60px}
+.k{font:600 12px Mono,monospace;letter-spacing:.1em;text-transform:uppercase;color:#E1251B;margin-bottom:14px}
+h1,h2{font-family:Arch,sans-serif;font-stretch:62%;font-weight:900;text-transform:uppercase;line-height:.88}
+h1{font-size:clamp(60px,10vw,140px)}h2{font-size:clamp(44px,6vw,84px);margin-bottom:28px}
+section{padding:70px 0;border-top:1px solid #26282c}
+nav{position:sticky;top:0;z-index:9;background:#111214;display:flex;gap:6px;justify-content:center;padding:10px;border-bottom:1px solid #26282c}
+nav a{color:#cfcfcf;text-decoration:none;font:600 12px Mono,monospace;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:99px}nav a:hover{background:#26282c;color:#fff}
+.row{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}
+.browser{flex:1 1 640px;min-width:0;background:#fff;border-radius:10px;overflow:hidden}
+.bar{height:32px;background:#e8e8e8;display:flex;gap:6px;align-items:center;padding:0 12px}.bar i{width:10px;height:10px;border-radius:50%;background:#ff5f57}.bar i:nth-child(2){background:#febc2e}.bar i:nth-child(3){background:#28c840}
+.bar span{margin-left:14px;background:#fff;border-radius:6px;padding:3px 40px;font-size:11.5px;color:#555}
+.scr{height:720px;overflow-y:auto}.scr img{width:100%;display:block}
+.phone{flex:0 0 auto;width:300px;height:640px;border-radius:44px;background:#000;padding:11px;box-shadow:0 0 0 2px #333}
+.phone .scr{height:100%;border-radius:34px;scrollbar-width:none}.phone .scr::-webkit-scrollbar{display:none}
+figcaption{font:600 12px Mono,monospace;text-transform:uppercase;letter-spacing:.05em;color:#9a9ca0;margin-top:10px}
+figure{margin:0}
+.brand img{width:100%;border-radius:10px;display:block}
+.links{margin-top:18px;font-size:14px;color:#9a9ca0}.links a{color:#fff;margin-right:14px}
+</style></head><body>
+<nav><a href="#brand">Template</a><a href="#home">Homepage</a><a href="#pdp">Product page</a><a href="#email">Email</a></nav>
+<header><div class="w"><p class="k">DC Shoes Europe · dcshoes.fr</p><h1>The new template,<br>on our own products.</h1></div></header>
+
+<section id="brand"><div class="w"><p class="k">01</p><h2>Colours &amp; type</h2>
+<figure class="brand"><img src="tpl/shots/brand_d.webp" alt="DC brand template: colours and type"></figure></div></section>
+
+<section id="home"><div class="w"><p class="k">02</p><h2>Homepage</h2>
+<div class="row"><figure class="browser"><div class="bar"><i></i><i></i><i></i><span>dcshoes.fr</span></div><div class="scr"><img src="tpl/shots/home_d.webp" alt="Homepage desktop"></div></figure>
+<figure><div class="phone"><div class="scr"><img src="tpl/shots/home_m.webp" alt="Homepage mobile"></div></div><figcaption>iPhone · scroll inside</figcaption></figure></div></div></section>
+
+<section id="pdp"><div class="w"><p class="k">03</p><h2>Product page · Trackstar 10K</h2>
+<div class="row"><figure class="browser"><div class="bar"><i></i><i></i><i></i><span>dcshoes.fr/trackstar-10k-doudoune</span></div><div class="scr"><img src="tpl/shots/pdp_d.webp" alt="Product page desktop"></div></figure>
+<figure><div class="phone"><div class="scr"><img src="tpl/shots/pdp_m.webp" alt="Product page mobile"></div></div><figcaption>iPhone · scroll inside</figcaption></figure></div></div></section>
+
+<section id="email"><div class="w"><p class="k">04</p><h2>Email · newsletter</h2>
+<div class="row"><figure class="browser" style="flex:0 1 640px"><div class="bar"><i></i><i></i><i></i><span>Inbox</span></div><div class="scr"><img src="tpl/shots/email_d.webp" alt="Email desktop"></div></figure>
+<figure><div class="phone"><div class="scr"><img src="tpl/shots/email_m.webp" alt="Email mobile"></div></div><figcaption>iPhone · Apple Mail</figcaption></figure></div>
+<p class="links">Live HTML: <a href="tpl/home.html">Homepage</a><a href="tpl/pdp.html">Product page</a><a href="tpl/email.html">Email</a><a href="tpl/brand.html">Template</a></p></div></section>
+</body></html>
